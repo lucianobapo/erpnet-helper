@@ -1,0 +1,30 @@
+{
+    "name": "erpnet/helper",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Luciano Porto",
+            "email": "luciano.bapo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel-doctrine/orm": "^1.1",
+        "league/factory-muffin": "~2.0",
+        "gedmo/doctrine-extensions": "^2.4",
+        "laravel/laravel": "^5.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ErpNET\\App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErpNET\\Tests\\": "tests/"
+        }
+    }
+}
