@@ -2,17 +2,17 @@
 
 namespace ErpNET\Tests;
 
-use ErpNET\App\Application;
-use ErpNET\Tests\Classes\Traits\DatabaseTransactions;
-use ErpNET\Tests\Classes\Traits\TestPrepare;
+//use ErpNET\App\Application;
+//use ErpNET\Tests\Classes\Traits\DatabaseTransactions;
+//use ErpNET\Tests\Classes\Traits\TestPrepare;
 use Exception;
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Testing\TestCase as Test;
 
 class TestCase extends Test
 {
-    use DatabaseTransactions;
-    use TestPrepare;
+//    use DatabaseTransactions;
+//    use TestPrepare;
     /**
      * The base URL to use while testing the application.
      *

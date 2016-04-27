@@ -1,6 +1,6 @@
 <?php
 
-namespace ErpNET\App\Providers;
+namespace ErpNET\Helper\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
