@@ -1,7 +1,7 @@
 {
     "name": "erpnet/helper",
     "license": "MIT",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "authors": [
         {
             "name": "Luciano Porto",
@@ -19,12 +19,15 @@
     },
     "autoload": {
         "psr-4": {
-            "ErpNET\\App\\": "src/"
-        }
+            "ErpNET\\Helper\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "ErpNET\\Tests\\": "tests/"
+            "ErpNET\\HelperTests\\": "tests/"
         }
     }
 }
