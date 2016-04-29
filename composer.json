@@ -1,7 +1,7 @@
 {
-    "name": "erpnet/helper",
+    "name": "ilhanet/erpnet-helper",
     "license": "MIT",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "authors": [
         {
             "name": "Luciano Porto",
@@ -13,7 +13,7 @@
         "laravel-doctrine/orm": "^1.1",
         "league/factory-muffin": "~2.0",
         "gedmo/doctrine-extensions": "^2.4",
-        "laravel/laravel": "^5.2"
+        "laravel/framework": "~5"
     },
     "require-dev": {
     },
