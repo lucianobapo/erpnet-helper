@@ -6,6 +6,17 @@
  * Time: 06:06
  */
 
+if (! function_exists('t')) {
+    function t($txt)
+    {
+        $translated = app('translator')->trans('general.'.$txt);
+        if (strpos($translated, 'general.')===false)
+            return $translated;
+        else
+            return $txt;
+    }
+}
+
 if (! function_exists('try_call')) {
     function try_call($functionName, $obj)
     {
