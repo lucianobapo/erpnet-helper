@@ -86,9 +86,10 @@ if (!function_exists('check_orm')) {
 
     function check_orm($eloquent, $doctrine)
     {
-        if (config('erpnet.orm')=='eloquent')
+        $env = env('ERPNET_ORM', 'eloquent');
+        if ($env =='eloquent')
             return $eloquent;
-        elseif(config('erpnet.orm')=='doctrine')
+        elseif($env=='doctrine')
             return function($app) use ($doctrine) {
                 // This is what Doctrine's EntityRepository needs in its constructor.
                 return new $doctrine['repository'](
