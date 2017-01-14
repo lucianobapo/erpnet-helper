@@ -10,9 +10,6 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel-doctrine/orm": "^1.1",
-        "league/factory-muffin": "~2.0",
-        "gedmo/doctrine-extensions": "^2.4",
         "laravel/framework": "^5"
     },
     "require-dev": {
